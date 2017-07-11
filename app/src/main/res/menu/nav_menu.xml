@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_personal_setting"
+        android:icon="@drawable/ic_personal_setting"
+        android:title="个人设置"/>
+    <item
+        android:id="@+id/nav_group"
+        android:icon="@drawable/ic_group"
+        android:title="群/组" />
+    <item
+        android:id="@+id/nav_collection"
+        android:icon="@drawable/ic_collection"
+        android:title="我的收藏" />
+    <item
+        android:id="@+id/nav_security"
+        android:icon="@drawable/ic_security"
+        android:title="安全" />
+    </group>
+</menu>
